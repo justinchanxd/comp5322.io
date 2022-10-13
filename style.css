@@ -44,7 +44,8 @@ img {
 }
 
 .tab_content {
-    order:1;display: none; 
+    order:1;
+    display: none; 
     width:100%; 
     border-bottom: 3px solid #ddd; 
     line-height: 1.6; 
@@ -61,3 +62,15 @@ img {
 .tabContainer input:checked + label + .tab_content {
     display: initial;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
