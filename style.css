@@ -19,9 +19,14 @@ head {
     
 }
 
-img {
+#bg {
     width:90vh;
     height:30vh;
+}
+
+#me {
+    width:26.6vh;
+    height:20vh;
 }
 
 .tabContainer {
